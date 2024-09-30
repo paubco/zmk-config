@@ -53,19 +53,19 @@
 
         nav {
             bindings = <
-&trans      &trans  &trans    &trans    &trans       &kp MINUS         &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END
-&kp EXCL    &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp LS(QUESTION)  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT
-&caps_word  &trans  &trans    &trans    &trans       &trans            &trans          &trans         &trans        &kp ESCAPE
-                              &trans    &trans       &kp ENTER         &trans
+&trans      &trans  &trans  &trans  &trans    &kp MINUS         &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END
+&trans      &trans  &trans  &trans  &trans    &kp LS(QUESTION)  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT
+&caps_word  &trans  &trans  &trans  &trans    &kp PLUS          &kp MINUS       &kp SLASH      &kp ASTERISK  &kp ESCAPE
+                            &trans  &trans    &kp ENTER         &trans
             >;
         };
 
         fun {
             bindings = <
-&sys_reset   &trans  &kp C_BRI_DEC  &kp C_BRI_INC  &bt BT_SEL 0    &trans      &kp N7  &kp N8  &kp N9  &sys_reset
-&bootloader  &trans  &kp C_VOL_DN   &kp C_VOL_UP   &bt BT_SEL 1    &kp LS(N0)  &kp N4  &kp N5  &kp N6  &bootloader
-&trans       &trans  &trans         &bt BT_CLR     &bt BT_SEL 2    &kp N0      &kp N1  &kp N2  &kp N3  &trans
-                                    &trans         &trans          &trans      &trans
+&sys_reset   &trans  &kp C_BRI_DEC  &kp C_BRI_INC  &bt BT_SEL 0    &kp QUESTION  &kp N7  &kp N8  &kp N9  &sys_reset
+&bootloader  &trans  &kp C_VOL_DN   &kp C_VOL_UP   &bt BT_SEL 1    &kp LS(N0)    &kp N4  &kp N5  &kp N6  &bootloader
+&trans       &trans  &trans         &bt BT_CLR     &bt BT_SEL 2    &kp N0        &kp N1  &kp N2  &kp N3  &trans
+                                    &trans         &trans          &trans        &trans
             >;
         };
     };
