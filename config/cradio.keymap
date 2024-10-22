@@ -15,7 +15,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             quick-tap-ms = <150>;
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
@@ -44,18 +44,18 @@
 
         sym {
             bindings = <
-&kp EXCL      &kp RA(AT)       &kp RA(NUMBER_3)  &kp DLLR      &kp PRCNT           &trans  &trans            &trans    &trans        &trans
-&kp NUBS      &kp RIGHT_BRACE  &kp LS(N8)        &kp RA(LBKT)  &kp LS(N7)          &trans  &kp LEFT_BRACKET  &kp APOS  &kp LS(APOS)  &kp LS(NUMBER_3)
-&kp LS(NUBS)  &kp RA(NUHS)     &kp LS(N9)        &kp RA(RBKT)  &kp RA(NUMBER_1)    &trans  &trans            &trans    &trans        &trans
-                                                 &trans        &kp DELETE          &trans  &trans
+&kp EXCL      &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp DLLR      &kp PRCNT           &kp EXCLAMATION   &kp LS(APOS)      &kp LS(NUMBER_3)  &trans  &trans
+&kp NUBS      &kp RIGHT_BRACE   &kp LS(N8)        &kp RA(LBKT)  &kp LS(N7)          &kp RA(NUMBER_2)  &kp LEFT_BRACKET  &kp APOS          &trans  &kp NUHS
+&kp LS(NUBS)  &kp LS(NUHS)      &kp LS(N9)        &kp RA(RBKT)  &kp RA(NUMBER_1)    &trans            &trans            &trans            &trans  &trans
+                                                  &trans        &kp DELETE          &trans            &trans
             >;
         };
 
         nav {
             bindings = <
-&trans      &trans  &trans  &trans  &trans    &kp MINUS         &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END
-&trans      &trans  &trans  &trans  &trans    &kp LS(QUESTION)  &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT
-&caps_word  &trans  &trans  &trans  &trans    &kp PLUS          &kp MINUS       &kp SLASH      &kp ASTERISK  &kp ESCAPE
+&trans      &trans  &trans  &trans  &trans    &kp MINUS         &kp HOME         &kp PAGE_DOWN  &kp PAGE_UP   &kp END
+&trans      &trans  &trans  &trans  &trans    &kp LS(QUESTION)  &kp LEFT_ARROW   &kp DOWN       &kp UP_ARROW  &kp RIGHT
+&caps_word  &trans  &trans  &trans  &trans    &kp NON_US_BSLH   &kp NON_US_HASH  &kp SLASH      &kp GRAVE     &kp ESCAPE
                             &trans  &trans    &kp ENTER         &trans
             >;
         };
