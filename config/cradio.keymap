@@ -46,10 +46,10 @@
 
         sym {
             bindings = <
-&kp ESCAPE    &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp DLLR      &kp PRCNT           &kp LS(AMPERSAND)  &kp EXCL  &kp QUESTION      &kp LS(NUMBER_3)  &trans
-&kp NUBS      &kp RA(SQT)       &kp LS(N8)        &kp RA(LBKT)  &kp AMPERSAND       &kp LS(N0)         &kp SQT   &kp LEFT_BRACKET  &kp LS(SQT)       &kp NUHS
-&kp LS(NUBS)  &kp RA(NUHS)      &kp LS(N9)        &kp RA(RBKT)  &kp RA(NUMBER_1)    &trans             &trans    &trans            &trans            &trans
-                                                  &trans        &kp DELETE          &trans             &trans
+&kp ESCAPE    &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp DLLR      &kp PRCNT           &kp LS(NUMBER_2)  &kp EXCL  &kp TILDE         &kp LS(NUMBER_3)  &trans
+&kp NUBS      &kp RA(SQT)       &kp LS(N8)        &kp RA(LBKT)  &kp AMPERSAND       &kp LS(N0)        &kp SQT   &kp LEFT_BRACKET  &kp LS(SQT)       &kp NUHS
+&kp LS(NUBS)  &kp RA(NUHS)      &kp LS(N9)        &kp RA(RBKT)  &kp RA(NUMBER_1)    &trans            &trans    &trans            &trans            &trans
+                                                  &trans        &kp DELETE          &trans            &trans
             >;
         };
 
@@ -57,7 +57,7 @@
             bindings = <
 &trans      &kp F7  &kp F8  &kp F9  &trans    &kp MINUS         &kp HOME             &kp PAGE_DOWN  &kp PAGE_UP        &kp END
 &trans      &kp F4  &kp F5  &kp F6  &trans    &kp LS(QUESTION)  &kp LEFT_ARROW       &kp DOWN       &kp UP_ARROW       &kp RIGHT
-&caps_word  &kp F1  &kp F2  &kp F3  &trans    &kp LS(N7)        &kp LS(RIGHT_BRACE)  &kp SLASH      &kp RIGHT_BRACKET  &kp EQUAL
+&caps_word  &kp F1  &kp F2  &kp F3  &trans    &kp LS(N7)        &kp LS(RIGHT_BRACE)  &kp SLASH      &kp RIGHT_BRACKET  &kp LS(N0)
                             &trans  &trans    &kp ENTER         &trans
             >;
         };
